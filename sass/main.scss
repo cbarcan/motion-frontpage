@@ -1,11 +1,5 @@
-@import "base";
-@import "layout";
-
-body {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
+@use "base" as *;
+@use "layout" as *;
 
 .leftside {
   width: 50%;
