@@ -1,0 +1,16 @@
+@import "base";
+@import "layout";
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.leftside {
+  width: 50%;
+}
+
+.rightside {
+  width: 50%;
+}
