@@ -22,15 +22,52 @@
   display: grid;
   grid-template: "a" 1fr "b" 2fr "c" 1fr;
 }
+.leftside p {
+  color: white;
+}
 .leftside .logo-container {
   grid-area: b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.leftside .logo-container img {
+  height: 80px;
+  width: 80px;
+}
+.leftside .logo-container p:first-of-type {
+  font-size: 30px;
+}
+.leftside .logo-container p:nth-of-type(2) {
+  width: 260px;
+  text-align: center;
+}
+.leftside .logo-container .store-button-container {
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.leftside .logo-container .store-button-container a {
+  height: 35px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftside .logo-container .store-button-container a img {
+  height: fit-content;
 }
 .leftside .social-links-container {
   grid-area: c;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 .leftside .social-links-container .social-links {
   display: flex;
@@ -43,6 +80,8 @@
   width: 40px;
 }
 .leftside .social-links-container p {
+  font-size: 12px;
+  font-weight: 400;
   text-align: center;
 }
 
