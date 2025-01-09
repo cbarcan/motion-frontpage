@@ -86,5 +86,92 @@
 }
 
 .rightside {
+  height: 100%;
   width: 66%;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 40px;
+    gap: 18px;
+
+    a {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    button {
+      height: 40px;
+      width: 120px;
+      background-color: $background-color;
+      border: 1px solid $boder-color;
+      border-radius: 50px;
+      font-size: 10px;
+      font-weight: 400;
+    }
+  }
+
+  form {
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 50px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .input-container {
+      height: 42px;
+      width: 288px;
+      display: flex;
+      border-bottom: 1px solid $boder-color;
+
+      label {
+        height: 24px;
+        width: 24px;
+        margin-right: 22px;
+        display: block;
+
+        img {
+          height: 22px;
+          width: 22px;
+        }
+      }
+
+      input {
+        height: 26px;
+        border: none;
+      }
+
+      input::placeholder {
+        color: black;
+        font-weight: 400;
+      }
+    }
+
+    a {
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    button {
+      height: 60px;
+      width: 288px;
+      margin-top: 41px;
+      border: none;
+      border-radius: 30px;
+      font-size: 12px;
+      font-weight: 400;
+      color: white;
+      background: $linear-Gradient;
+    }
+  }
 }

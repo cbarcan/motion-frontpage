@@ -88,7 +88,82 @@
 }
 
 .rightside {
+  height: 100%;
   width: 66%;
+  display: flex;
+  flex-direction: column;
+}
+.rightside header {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 40px;
+  gap: 18px;
+}
+.rightside header a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.rightside header button {
+  height: 40px;
+  width: 120px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: 400;
+}
+.rightside form {
+  width: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.rightside form h1 {
+  font-size: 40px;
+}
+.rightside form .input-container {
+  height: 42px;
+  width: 288px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.rightside form .input-container label {
+  height: 24px;
+  width: 24px;
+  margin-right: 22px;
+  display: block;
+}
+.rightside form .input-container label img {
+  height: 22px;
+  width: 22px;
+}
+.rightside form .input-container input {
+  height: 26px;
+  border: none;
+}
+.rightside form .input-container input::placeholder {
+  color: black;
+  font-weight: 400;
+}
+.rightside form a {
+  font-size: 12px;
+  font-weight: 400;
+}
+.rightside form button {
+  height: 60px;
+  width: 288px;
+  margin-top: 41px;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(115deg, #C468FF 0%, #6E91F6);
 }
 
 /*# sourceMappingURL=main.css.map */
